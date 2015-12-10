@@ -1,0 +1,22 @@
+
+
+Tabular Odds
+
+Likelihood Ratios [P() expressed in odds]
+
+LR(Se) = Odds True(+) given Dx(+)   = Se/(1-Se)
+LR(Sp) = Odds True(-) given Dx(-)   = Sp/(1-Sp)
+LR(PPP)  = Odds True(+) given Test(+) = Se/(1-Sp)
+LR(NPP)  = Odds True(-) given Test(-) = Sp/(1-Se)
+
+PRE & POST Odds of Test Result (+) vs (-)
+
+PRE(+)  = Pre-test odds Test(+)  = Prev/(1-Prev)
+PRE(-)  = Pre-test odds Test(-)  = (1-Prev)/Prev
+POST(+) = Post-test odds Test(+) = PRE(+) * LR(+)
+POST(-) = Post-test odds Test(-) = PRE(-) * LR(-)
+
+Tabular Predictive Power
+
+PPP = POST(+)/[POST(+)+1]
+NPP = POST(-)/[POST(-)+1]
