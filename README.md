@@ -1,6 +1,8 @@
 # R-Shiny-App
 Interactive R Shiny App
 
+https://nyupsychometrics.shinyapps.io/RShinyApp
+
 This R Shiny App demonstrates the relationship between two-by-two survey table and survey predictive power. 
 
 Counts of true and false diagnosis is affected by underlying prevalence rate. 
